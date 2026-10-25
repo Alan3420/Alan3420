@@ -1,6 +1,6 @@
 ## Alan Novas Mateo
 
-**Desarrollador junior full-stack** centrado en Python y desarrollo web. Construyo aplicaciones con APIs REST en Flask, frontends en Vue 3 y bases de datos relacionales, con atención a la arquitectura por capas, los tests y la documentación.
+**Desarrollador junior full-stack** centrado en Python y desarrollo web. Construyo aplicaciones con APIs REST en FastAPI y Flask, frontends en Vue 3 y bases de datos relacionales, con atención a la arquitectura por capas, los tests y la documentación.
 
 Actualmente busco mi primera oportunidad profesional como desarrollador.
 
@@ -11,6 +11,7 @@ Actualmente busco mi primera oportunidad profesional como desarrollador.
 **Backend**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
 ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
@@ -31,17 +32,20 @@ Actualmente busco mi primera oportunidad profesional como desarrollador.
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Google Cloud Run](https://img.shields.io/badge/Cloud_Run-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![Cloudflare Pages](https://img.shields.io/badge/Cloudflare_Pages-F38020?style=flat-square&logo=cloudflarepages&logoColor=white)
 
 ---
 
 ### Proyectos destacados
 
-#### [Game Rank](https://github.com/Alan3420/Game-Rank) · [Demo](https://gamerk.netlify.app/)
+#### [Game Rank](https://github.com/Alan3420/Game-Rank) · [Demo](https://game-rank-2h1.pages.dev/)
 Plataforma full-stack para descubrir, valorar y organizar videojuegos con datos de la API de RAWG.
-- API REST en Flask con autenticación JWT, rate limiting y migraciones con Flask-Migrate.
+- API REST en FastAPI con autenticación JWT, límite de peticiones y migraciones con Alembic.
+- Migrada desde Flask sin cambios para el frontend: tests de contrato que comparan las 35 rutas con la versión original.
 - Frontend en Vue 3 + Vite + PrimeVue con panel de administración y moderación de comentarios.
-- MySQL, Docker Compose y 48 tests unitarios con pytest.
+- 48 tests unitarios y 28 de contrato con pytest en GitHub Actions; desplegada en Google Cloud Run, Aiven MySQL y Cloudflare Pages.
 
 #### [Pokémon Sonimu](https://github.com/Alan3420/pokemon_sonimu)
 Aplicación web de batallas Pokémon por turnos desarrollada en equipo.
