@@ -4,6 +4,8 @@
 
 Actualmente busco mi primera oportunidad profesional como desarrollador.
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Alan_Novas_Mateo-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alan-novas-mateo-690853278)
+
 ---
 
 ### Tecnologías
